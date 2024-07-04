@@ -41,7 +41,7 @@ import { ViewQuestionComponent } from './admin/view-question/view-question.compo
 import { PlayquizComponent } from './student/playquiz/playquiz.component';
 import { CheatingComponent } from './error/cheating/cheating.component';
 // import { WebcamModule } from 'ngx-webcam';
-//  import { NgxCaptchaModule } from 'ngx-captcha';
+//import { NgxCaptchaModule } from 'ngx-captcha';
 
 @NgModule({
   declarations: [
@@ -85,7 +85,7 @@ import { CheatingComponent } from './error/cheating/cheating.component';
     ReactiveFormsModule,
     // WebcamModule,
     // RecaptchaMo
-    // NgxCaptchaModule,
+    //NgxCaptchaModule,
     BrowserAnimationsModule, // required animations  module
     ToastrModule.forRoot(),
   ],
